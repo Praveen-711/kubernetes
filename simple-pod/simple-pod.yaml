@@ -9,5 +9,6 @@ spec:
       name: ngnix-container
       ports: 
         - containerPort: 80
+          hostport: 3556
           protocol: TCP
      
