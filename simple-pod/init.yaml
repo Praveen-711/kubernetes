@@ -20,14 +20,7 @@ spec:
         - 30s
       ports:
         - containerPort: 80
-          protocol: TCP
-
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx-pod
-spec:  
+          protocol: TCP 
   containers:
     - name: nginx-container
       image: nginx:1.23
