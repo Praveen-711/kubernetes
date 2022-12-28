@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: rc-pod
+spec:
+  minReadySeconds: 5
+  replicas: 6
+  template:
+    metadata: 
+      name: rc-pod
+    spec:
+      containers:
+        - image: alpine:3
+          name: alpine-container
+            
