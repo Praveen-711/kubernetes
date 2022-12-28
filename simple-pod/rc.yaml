@@ -5,8 +5,7 @@ metadata:
 spec:
   minReadySeconds: 5
   replicas: 6
-  selector: 
-    matchLabels: 
+  selector:  
       environment: dev
   template:
     metadata: 
