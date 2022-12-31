@@ -15,7 +15,6 @@ spec:
         app: jenkins
         ver: "1"
     spec:
-      restartPolicy: Never
       initContainers:
         - name: alpine-container
           image: alpine:3
