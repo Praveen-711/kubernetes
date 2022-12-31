@@ -15,9 +15,9 @@ spec:
         app: nginx
         ver: 1.23
     spec:
-    containers:
-      - name: nginx-container
-        image: nginx:1.23
-        ports:
-          - containerPort: 80
-            protocol: TCP
+      containers:
+        - name: nginx-container
+          image: nginx:1.23
+          ports:
+            - containerPort: 80
+              protocol: TCP
