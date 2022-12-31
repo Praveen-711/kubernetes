@@ -14,11 +14,10 @@ spec:
       labels:
         app: nginx
         ver: 1.23
-  spec:
+    spec:
     containers:
       - name: nginx-container
         image: nginx:1.23
         ports:
           - containerPort: 80
             protocol: TCP
-                  
